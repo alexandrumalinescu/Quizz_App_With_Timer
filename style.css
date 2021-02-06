@@ -21,6 +21,8 @@ h1 {
 }
 .countdown-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .big-text {
@@ -34,4 +36,53 @@ h1 {
 }
 .countdown-el span {
   font-size: 1.5rem;
+}
+
+.quiz-container {
+    background-color:  #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(100, 100, 100, 0.1);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size:  1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #3642ec ;
+    color: white;
+    border: none;
+    font-family: inherit;
+    font-size: 1.3rem;
+    display: block;
+    width: 100%;
+    padding: 1.3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0c1bee;
 }
